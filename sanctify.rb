@@ -5,21 +5,21 @@
 class Sanctify < Formula
   desc "Automated semantic versioning and release tool"
   homepage "https://github.com/DrakeMazzy/sanctify"
-  version "0.1.4"
+  version "0.1.5"
   license "CC0-1.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.4/sanctify_darwin_x86_64.tar.gz"
-      sha256 "c4d486bfb8815d756b64f46c57d0d0f79cf844ec3c9d0cb3720f5d12cd2c6b09"
+      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.5/sanctify_darwin_x86_64.tar.gz"
+      sha256 "08453aa8c50ab40f3ed6598e075f89e321f267234af0638051ad20c1a4b49252"
 
       define_method(:install) do
         bin.install "sanctify"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.4/sanctify_darwin_arm64.tar.gz"
-      sha256 "e8a41e166dfe97602765d004fbb2793996687edd4e32ef62f64b4885dbe1ac06"
+      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.5/sanctify_darwin_arm64.tar.gz"
+      sha256 "d23c10a5b67d7b4cc8655e6a8ebbb5677d928835b15fdb564414937125d66499"
 
       define_method(:install) do
         bin.install "sanctify"
@@ -29,15 +29,15 @@ class Sanctify < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.4/sanctify_linux_x86_64.tar.gz"
-      sha256 "9c8830a59c440bc54c4ca43a7f70d91d32384e5b782299276e9ab6a843d05261"
+      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.5/sanctify_linux_x86_64.tar.gz"
+      sha256 "d48dc43b6464f846afe353339b06968573afaa1222937742a6b1cf2d53dab9ca"
       define_method(:install) do
         bin.install "sanctify"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.4/sanctify_linux_arm64.tar.gz"
-      sha256 "79554bdfe0965b784094859098a3619030c1f92f1dc9c00319af15055a9f3a73"
+      url "https://github.com/DrakeMazzy/sanctify/releases/download/v0.1.5/sanctify_linux_arm64.tar.gz"
+      sha256 "cbd02a8fe122c568720bd87678ad0e3868d835708c2945f387b8829725a1dc86"
       define_method(:install) do
         bin.install "sanctify"
       end
