@@ -5,22 +5,22 @@ cask "sanctify" do
   on_macos do
     on_intel do
       url "https://github.com/DrakeMazzy/sanctify/releases/download/v#{version}/sanctify_darwin_x86_64.tar.gz"
-      sha256 "680308c8b0e87a21a8eb84a4087ef077676a5514d1b4a9c74d92a9b29a1dabfb"
+      sha256 "19aca0fb917c645d8333f85c3385fb5e35b8044ab5fab66a755148479cdf12e7"
     end
     on_arm do
       url "https://github.com/DrakeMazzy/sanctify/releases/download/v#{version}/sanctify_darwin_arm64.tar.gz"
-      sha256 "f0865ae5ff9daa73da974f29ac4dae6819a1ec9eff10ab5e57532e9ae7423989"
+      sha256 "2ee540be1baecbaae47cfb130bb7f983df5bbb872973312adab878b283d397ba"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DrakeMazzy/sanctify/releases/download/v#{version}/sanctify_linux_x86_64.tar.gz"
-      sha256 "f4e3c536c9f8020f8a5da9824c499e9f7a8b349bcb411f83c7bcb153d54525b4"
+      sha256 "f1a0df98b634e4281759795a83c172528436f92b560768cdc859061ad0d8aa08"
     end
     on_arm do
       url "https://github.com/DrakeMazzy/sanctify/releases/download/v#{version}/sanctify_linux_arm64.tar.gz"
-      sha256 "d92da7f95caa1832469764fbb688014ca0d11b1d2804357408df780bd2c1863c"
+      sha256 "444e1624e626a73749974707adfc8d4e0aca86969e7738069a4a2c8946de76ab"
     end
   end
 
